@@ -3,3 +3,5 @@ back/
 __pycache__/
 **/__pycache__/
 *.py[cod]
+/extracted_files
+/venv

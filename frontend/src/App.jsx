@@ -1,17 +1,15 @@
 import React from 'react';
-import ZipUploader from './components/ZipUploader'; // Import the new component
-import './index.css';
-import CodeSubmitForm from './components/Input';
+import CodeChecker from './components/CodeChecker'; // Import the new component
+import './index.css'; // Assuming you have this file for base styles
 
-// In a larger application, you would use a library like React Router here.
-// For this example, we'll just render the main component.
 function App() {
   return (
-    <div className="App">
-      <CodeSubmitForm/>
+    // This is the main page wrapper
+    <div className="min-h-screen w-full bg-gradient-to-br from-gray-100 to-blue-50 p-6 lg:p-12 font-sans">
+      {/* Render the one main component */}
+      <CodeChecker />
     </div>
   );
 }
 
 export default App;
-
