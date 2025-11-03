@@ -1,6 +1,6 @@
 import React from 'react';
 import ZipUploader from './components/ZipUploader'; // Import the new component
-import './index.css';
+import './index.css'; // Import the CSS file
 
 // In a larger application, you would use a library like React Router here.
 // For this example, we'll just render the main component.
